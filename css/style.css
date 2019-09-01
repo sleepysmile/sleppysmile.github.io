@@ -1,0 +1,134 @@
+.header-main {
+    min-height: 10vh;
+    background-color: rgba(38,38,38,1);
+    display: flex;
+    align-items: center;
+}
+
+.header-main > .menu {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+
+}
+
+.menu > .menu_item {
+    flex: 0 0 20%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-width: 90px;
+    max-width: 350px;
+}
+
+.menu > .menu_item .menu_title {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.menu_item > .sub_menu {
+    display: none;
+    opacity: 0.9;
+    flex-direction: column;
+    background-color: #303030;
+    width: 10%;
+    padding: 15px;
+    position: absolute;
+}
+
+.sub_menu > .sub_menu_item:first-child {
+    margin-top: 0;
+}
+
+.sub_menu_item:hover {
+    border-bottom: 2px solid red;
+}
+
+.sub_menu:hover {
+    display: flex;
+}
+
+.sub_menu > .sub_menu_item {
+    color: #b9b9b9;
+    margin-top: 10px;
+    word-wrap: break-word;
+    text-decoration: none;
+    min-height: 30px;
+    max-height: 300px;
+}
+
+.menu_item:hover > .sub_menu {
+    display: flex;
+}
+
+section .main-text {
+    margin-top: 10px;
+}
+
+section .category {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+section .category .category_item {
+    min-width: 250px;
+    max-width: 300px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #b9b9b9;
+}
+
+section .category .category_item > .category_image {
+    text-align: center;
+}
+
+section .category .category_item > .category_image img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+section .category_item > .category_description {
+    word-wrap: break-word;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    margin-top: 30px;
+    height: 200px;
+    max-height: 500px;
+    background-color: rgba(38,38,38,1);
+}
+
+footer .footer-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer_block .footer-title {
+    color: #fff;
+}
+
+footer .sub_title {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .sub_title .sub_title-text {
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+footer .footer_block .telephone-footer {
+    align-content: start;
+}
