@@ -34,7 +34,7 @@
     opacity: 0.9;
     flex-direction: column;
     background-color: #303030;
-    width: 10%;
+    min-width: 10%;
     padding: 15px;
     position: absolute;
 }
@@ -54,7 +54,7 @@
 .sub_menu > .sub_menu_item {
     color: #b9b9b9;
     margin-top: 10px;
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
     text-decoration: none;
     min-height: 30px;
     max-height: 300px;
