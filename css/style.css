@@ -104,7 +104,8 @@ section .category_item > .category_description {
 
 section > .slider {
     position: relative;
-    height: 350px;
+    height: 725px;
+    z-index: 0
 }
 
 /*section > .slider > .section_image {*/
@@ -139,14 +140,19 @@ section > .slider {
     /*justify-content: center;*/
 /*}*/
 
-/*section .slider > .pagination_slide > .pagination-elem {*/
-    /*background-color: white;*/
-    /*width: 10px;*/
-    /*height: 10px;*/
-    /*border-radius: 50%;*/
-    /*margin: 5px;*/
-    /*cursor: pointer;*/
-/*}*/
+.slider__controls > .js__slider__pagers > .pagination-elem {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+em {
+  color: white;
+}
 
 /*section .section_image .container .section_image_title {*/
     /*color: white;*/
@@ -219,4 +225,3 @@ footer .footer_block .telephone-footer {
 
 
 }
-

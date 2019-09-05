@@ -2,11 +2,11 @@
 var sliderImage = $('.slider__images-image');
 
 sliderImage.each(function (index) {
-    $('.js__slider__pagers').append('<li>'+(index+1)+'</li>');
+    $('.js__slider__pagers').append('<span>'+(index+1)+'</span>');
 });
 
 // set up vars
-var sliderPagers       = 'ol.js__slider__pagers li',
+var sliderPagers       = 'div.js__slider__pagers span',
     sliderPagersActive = '.js__slider__pagers li.active',
     sliderImages       = '.js__slider__images',
     sliderImagesItem   = '.slider__images-item',
