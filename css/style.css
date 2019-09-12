@@ -124,6 +124,40 @@ section > .fotorama {
     position: absolute;
 }
 
+section > .section_order_category {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+section > .category-name {
+    
+}
+
+section > .section_order_category > .category_block {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    max-width: 220px;
+}
+
+section > .section_order_category > .category_block > .category_image-width {
+    width: 100%;
+    text-align: center;
+}
+
+section > .section_order_category > .category_block > .category_image-width > .category_image {
+    width: 100%;
+    height: 100%;
+}
+
+section > .section_order_category > .category_block > .category_title {
+    color: black;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
 footer {
     margin-top: 30px;
     height: 200px;
