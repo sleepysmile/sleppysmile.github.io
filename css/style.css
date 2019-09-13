@@ -140,8 +140,27 @@ section > .section_order_category > .category_block {
     padding: 15px;
     text-decoration: none;
     max-width: 220px;
-    border: 2px solid black;
+    border: 2px solid #b9b9b9;
     margin: 15px;
+}
+
+.modal-header_category {
+    max-width: 500px;
+}
+
+.modal-header_category > .modal-title_category {
+    max-width: 435px;
+    word-wrap: break-word;
+}
+
+.modal-content > .modal-body > .modal_category-image {
+    width: 100px;
+    height: 100px;
+}
+
+.modal-content > .modal-body > .modal_category-image > img {
+    width: 100%;
+    height: 100%;
 }
 
 section > .section_order_category > .category_block > .category_image-width {
