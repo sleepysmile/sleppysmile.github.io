@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/8fae670fec.js"></script>
 
     <!-- Fotorama from CDNJS, 19 KB -->
   <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
@@ -86,9 +87,15 @@
     </header>
 
     <section class="container">
-        <div class="category-name">
-            Название категории
+        <div class="category-bar">
+            <div class="category-name">
+                    Название категории
+            </div>
+            <a href="#" class="shoping-cart">
+                <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+            </a>
         </div>
+        
         <div class="section_order_category">
             <a href="#"  class="category_block" data-toggle="modal" data-target="#exampleModal">
                 <div class="category_image-width">
@@ -115,8 +122,16 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <form class="modal-counter-bar">
+                                <div class="modal-minus" id="js-minus-counter">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                </div>
+                                <input type="number" class="modal-input-counter" id="input-counter" value="0">
+                                <div class="modal-plus" id="js-plus-counter">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                            </form>
+                            <button type="button" class="btn btn-success">В корзину</button>
                         </div>
                         </div>
                     </div>
