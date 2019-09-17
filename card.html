@@ -86,7 +86,7 @@
         
     </header>
 
-    <section class="container">
+    <section class="container section-card">
         <div class="category-bar">
             <div class="category-name">
                    Корзина товаров
@@ -96,14 +96,14 @@
         <div class="section_order_card_category">
             <div class="order_discription">Наименование товара</div>
             <div class="order_count">Количество</div>
-            <div class="order_count">Цена</div>
+            <div class="order_price">Цена</div>
         </div>
 
         <div class="order-card-section">
             <a href="#" data-toggle="modal" data-target="#exampleModal" class="order-card-block">
                 <div class="order-card-title">Наушники сяомей</div>
                 <div class="order-card-count">3</div>
-                <div class="order-card-price">Цена: 30</div>
+                <div class="order-card-price">30р</div>
             </a>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -128,55 +128,40 @@
                                 qwdqwdqwdqwdqwdqwdqwdqwdqwdqwdqwdqwdqwdwqdwq
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <div class="modal-footer-price">
-                                Цена: 100
-                            </div>
-                            <form class="modal-counter-bar">
-                                <div class="modal-minus" id="js-minus-counter">
-                                    <i class="fa fa-minus" aria-hidden="true"></i>
-                                </div>
-                                <input type="number" class="modal-input-counter" id="input-counter" value="0">
-                                <div class="modal-plus" id="js-plus-counter">
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                </div>
-                            </form>
-                            <button type="button" class="btn btn-success">В корзину</button>
-                        </div>
                         </div>
                     </div>
             </div>
         </div>
         <div class="section_order_card_category">
-            <div class="order_discription">Итог</div>
-            <div class="order_count">
+            <div class="order_discription">Итог: 23423423</div>
+            <div class="order_buy_button">
                 <button class="btn btn-success" data-toggle="modal" data-target="#cardOrder">Заказать</button>
                 <div class="modal fade" id="cardOrder" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                            <div class="modal-header modal-header_category">
-                                <h5 class="modal-title modal-title_category" id="exampleModalLabel">Введите свои данные для заказа</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="">
-                                    <!-- Телефон -->
-                                    <input type="phone">
-                                    <!-- Мыло -->
-                                    <input type="email">
-                                    <!-- Адрес -->
-                                    <input type="text">
-                                    <!-- ФИО -->
-                                    <input type="text">
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-success">Заказать</button>
-                            </div>
-                            </div>
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header modal-header_category">
+                            <h5 class="modal-title modal-title_category" id="exampleModalLabel">Введите свои данные для заказа</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <!-- Телефон -->
+                                <input type="phone">
+                                <!-- Мыло -->
+                                <input type="email">
+                                <!-- Адрес -->
+                                <input type="text">
+                                <!-- ФИО -->
+                                <input type="text">
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success">Заказать</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
